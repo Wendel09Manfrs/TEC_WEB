@@ -1,0 +1,52 @@
+<html>
+
+
+<head><center> <strong>
+  <h1>Cadastro da ordem de serviço</h1>
+</strong> </center></head>
+
+<body>
+  <div>
+    
+
+    <form action="/sucess.html" method="post">
+
+      <label for="fullname">Nome</label><br>
+      <input type="text" id="username" name="username" required> <br>
+      <label for="text">CPF</label> <br>
+      <input type="text" name="cpf" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" \
+        title="Digite um CPF no formato: xxx.xxx.xxx-xx" required>
+      <br><br>
+
+      <label for="form">Escolha seu modelo de celular entre os disponíveis abaixo:</label>
+      <br>
+      <select name="nomes">
+        <option value="samsung"> Samsung</option>
+        <option value="Iphone"> Iphone</option>
+        <option value="Motorola"> Motorolla</option>
+        <option value="Xiomi"> Xiomi</option>
+        <option value="LG"> LG</option>
+      </select>
+      <br><br>
+
+      <label for="textarea">Defeitos do celular:</label> <br>
+      <textarea rows="2" cols="20" name="msg" required></textarea>
+
+      <br><br>
+
+
+      <label for="input">Envie a foto do seu celular:</label> <br>
+      <input type="file" required>
+
+      <br> <br>
+
+      <input type="submit" value="Enviar Dados">
+
+    </form>
+
+  </div>
+  
+
+
+</body>
+</html>
