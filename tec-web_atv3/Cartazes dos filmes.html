@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css"/>
+    <link rel="stylesheet" href="css/estilo.css" />
     <title>Atv2_TEC-WEB</title>
 </head>
 
@@ -20,52 +20,92 @@
     </header>
 
     <main>
-        <table border="5">
-            <th>
-                <figure>
-                    <a href="filme1Detalhes.html">
-                        <img height="500" width="400"
-                            src="https://ingresso-a.akamaihd.net/prd/img/movie/o-poderoso-chefao-50-anos/008274f7-a76d-484f-8b5b-1c639c2ce46b.jpg"
-                            alt="Game of Thrones">
-                    </a>
+        <style>
+            table {
+              border-collapse: separate;
+              border-spacing: 10px;
+              width: 100%;
+              height: 100%;
+            }
+          
+            td {
+              background-color:white;
+              border-radius: 20px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              overflow: hidden;
+            }
+          
+            .cartaz {
+              margin: 0;
+              padding: 0;
+            }
+          
+            .cartaz img {
+              display: block;
+              width: 100%;
+              
+            }
+          
+            figcaption {
+              padding: 10px;
+              justify-content: center;
+              align-items: center;
+              display: flex;
+              padding: 10px;
+
+            }
+          
+          </style>
+          
+          <table >
+            <tr>
+              <td>
+                <figure class="cartaz">
+                  <a href="filme1Detalhes.html">
+                    <img height="500" width="400"src="https://ingresso-a.akamaihd.net/prd/img/movie/o-poderoso-chefao-50-anos/008274f7-a76d-484f-8b5b-1c639c2ce46b.jpg" alt="O Poderoso Chefão">
+                  </a>
+
+                 
                     <figcaption>
                         <h2>O Poderoso Chefão</h2>
-                    </figcaption>
+                      </figcaption>
+                      
                 </figure>
-            </th>
-
-            <th>
-                <figure>
-                    <a href="filme2Detalhes.html"><img height="500" width="400"
-                            src="https://upload.wikimedia.org/wikipedia/pt/c/c0/ForrestGumpPoster.jpg"
-                            alt="Forrest Gump: O contador de Histórias"></a>
-
-                    <figcaption>
-                        <h2>Forrest Gump: O contador de Histórias</h2>
-                    </figcaption>
-
+              </td>
+              <td>
+                <figure class="cartaz">
+                  <a href="filme2Detalhes.html">
+                    <img height="500" width="400" src="https://upload.wikimedia.org/wikipedia/pt/c/c0/ForrestGumpPoster.jpg" alt="Forrest Gump">
+                  </a>
+                  
+                  <figcaption>
+                    <h2>Forrest Gump</h2>
+                  </figcaption>
                 </figure>
-            </th>
-
-
-            <th>
-                <figure>
-                    <a href="filme3Detalhes.html">
-                        <img height="500" width="400"
-                            src="https://vertentesdocinema.com/wp-content/uploads/2020/09/12-homens-e-uma-sentenca-poster.jpg"
-                            alt="12 homens e uma sentença">
-                    </a>
-                    <figcaption>
-                        <h2>12 homens e uma sentença</h2>
-                    </figcaption>
+              </td>
+              <td>
+                <figure class="cartaz">
+                  <a href="filme3Detalhes.html">
+                    <img height="500" width="400" src="https://vertentesdocinema.com/wp-content/uploads/2020/09/12-homens-e-uma-sentenca-poster.jpg" alt="12 Homens e uma Sentença">
+                  </a>
+                  <figcaption>
+                    <h2>12 Homens e uma Sentença</h2>
+                  </figcaption>
                 </figure>
-            </th>
-
-        </table>
+              </td>
+            </tr>
+          </table>
+          
 
 
     </main> <br>
-    <center> <a href="index.html"> <button>Retornar ao menu</button> </a> </center>
+
+    <div class="text-center">
+        <a class="movie-btn" href="index.html">Retornar ao menu
+        </a>
+    </div>
+
+
 </body>
 
 </html>

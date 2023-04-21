@@ -8,6 +8,9 @@
 
 }
 
+
+
+
 .container{
     max-width: 720px;
 }
@@ -21,6 +24,8 @@ html, body{
 
 h1, h2 {
     margin:0;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 h3{
@@ -43,7 +48,23 @@ header {
 
 }
 
-
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 20px;
+  }
+  
+  th {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
 
 
    
@@ -61,6 +82,23 @@ header {
        border: 0;
        text-decoration: none;
 } 
+
+
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+.descr{
+    background-color: #ffbb3a;
+    justify-content: center;
+    align-items: center;
+
+}
+
     
 footer{
     color:black;
