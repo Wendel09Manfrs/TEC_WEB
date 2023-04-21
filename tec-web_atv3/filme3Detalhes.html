@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css"/>
+    <link rel="stylesheet" href="css/estilo.css" />
     <title>Atividade2-TEC-WEB</title>
 
 </head>
@@ -13,7 +13,7 @@
 
 
 
-<body>
+<body >
     <header>
 
         <center>
@@ -25,7 +25,7 @@
 
         <section>
             <figure>
-                <center><img width="400" height="500 "
+                <center><img class="poster" width="400" height="500 "
                         src="https://vertentesdocinema.com/wp-content/uploads/2020/09/12-homens-e-uma-sentenca-poster.jpg"
                         alt="12 homens e uma sentença"></center>
             </figure>
@@ -61,18 +61,19 @@
             </p>
             <p>
             <h4>Assista o trailer abaixo:</h4>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed\TEN-2uTi2c0" frameborder="0"
+            <iframe class="trailer" width="560" height="315" src="https://www.youtube.com/embed\TEN-2uTi2c0" frameborder="0"
                 allowfullscreen></iframe>
             </p>
-
-            <p>Clique no botão abaixo para escutar a trilha sonora:</p>
+            
+            <p>
+            <h4>Clique no botão abaixo para escutar a trilha sonora:</h4> </p>
 
             <audio controls>
                 <source src="audios/12 Angry Men Soundtrack (Kenyon Hopkins) .mp3" type="audio/mp3">
             </audio>
 
 
-            <section>
+            <section class="vagas">
                 <h4>Vagas disponíveis por seção(Total de 50 vagas):</h4>
                 <h5>Passe o cursor nas barras para visualizar o nº de vagas preenchidas</h5>
                 <p>Seção 1: <meter value="49" min="0" max="50" title="49 vagas preenchidas"> </meter></p>
@@ -80,9 +81,11 @@
                 <p>Seção 3: <meter value="30" min="0" max="50" title="30 vagas preenchidas"></meter></p>
                 <p>Seção 4: <meter value="35" min="0" max="50" title="35 vagas preenchidas"></meter></p>
             </section>
+
+
             <dialog open>
                 <form method="dialog">
-                    <p>
+
                     <ul>
                         <center>
                             <h3>AVISOS</h3>
@@ -109,9 +112,10 @@
 
         </section>
     </main>
-    <a href="Cartazes dos filmes.html"> <button>Retornar ao catálogo de Filmes</button> </a>
-    <br> <br>
-
+    <div class="text-center">
+        <a class="movie-btn" href="Cartazes dos filmes.html">Retornar ao catálogo</a>
+    </div>
+<br>
     <footer>
         Todos os direitos reservados a &copy;CineManfrs
     </footer>

@@ -10,7 +10,7 @@
 
 </head>
 
-<body id="cadastro_corpo">
+<body>
     <header style="display: flex; flex-direction: column;">
         <div style="order: 1; text-align: center;">
             <h1>Cadastro CineManfrs</h1>
@@ -21,13 +21,12 @@
             <progress id="progresso" max="100" value="40" title="40% preenchido">40%</progress>
         </div>
     </header>
-    <br>
 
-    <section>
+    <section id="cadastro_corpo">
         <form class="movie-form" action="index.html" method="post">
 
 
-
+<br>
             <div class="cadast">
                 <label for="birthday">Data de Nascimento:</label>
                 <input type="date" id="birthday" name="birthday" required> <br> <br>
@@ -73,6 +72,10 @@
                     pattern="https://.*" size="30" required> <br> <br>
 
             </div>
+
+
+
+
 
             <div class="cadast">
                 <label for="data_cupom_1compra">Qual data e hora o cliente pretende usar o cupom de desconto da primeira
@@ -131,22 +134,22 @@
 
 
 
-            </div>
-
             <div class="text-center">
                 <input class="movie-btn" type="submit" value="Enviar Dados">
             </div>
         </form> <br>
+        <div class="text-center">
+            <a class="movie-btn" href="index.html">Voltar ao menu </a>
+        </div>
     </section>
 
-
-    <div class="text-center">
-        <a class="movie-btn" href="index.html">Voltar ao menu </a>
-    </div>
     <footer>
         <br>
         Todos os direitos reservados a &copy;CineManfrs
     </footer>
-</body>
+
+</body>  
+
+
 
 </html>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css"/>
+    <link rel="stylesheet" href="css/estilo.css" />
     <title>Atividade2-TEC-WEB</title>
 
 </head>
@@ -20,60 +20,76 @@
     <main>
 
         <section>
+
+
             <figure>
-                <center><img width="400" height="500 "
+                <center><img class="poster" width="400" height="500 "
                         src="https://ingresso-a.akamaihd.net/prd/img/movie/o-poderoso-chefao-50-anos/008274f7-a76d-484f-8b5b-1c639c2ce46b.jpg"
                         alt=" O Poderoso Chefão"></center>
             </figure>
-            <p>
-            <h4> Data de exibição: 07/07/1972</h4>
-            </p>
-            <p>
-            <h4>
-                <p>Horários de Exibição</p>
-                <ul>
-                    <li>1ª Secão: 08h:00</li>
-                    <li>2ª Secão: 11h:00</li>
-                    <li>3ª Secão: 14h:00</li>
-                    <li>4ª Secão: 17h:00</li>
-                </ul>
-            </h4>
-            </p>
-            <p>
-            <h4> <mark>Classificação: 18 anos</mark> </h4>
-            </p>
-            <p>
-            <h4>
-                <details>Uma família mafiosa luta para estabelecer sua supremacia nos Estados Unidos depois da
-                    Segunda Guerra Mundial. Uma tentativa de assassinato deixa o chefão Vito Corleone incapacitado e
-                    força os filhos Michael e Sonny a assumir os negócios.</details>
-            </h4>
-            </p>
-            <p>
-            <h4>Duração:2h:55min</h4>
-            </p>
-            <p>
-            <h4>Assista o trailer abaixo:</h4>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/UaVTIH8mujA" frameborder="0"
-                allowfullscreen></iframe>
-            </p>
-            <p>Clique no botão abaixo para escutar a trilha sonora:</p>
 
-            <audio controls>
-                <source src="audios/TheGodfather.mp3" type="audio/mp3">
-            </audio>
-            <section>
-                <h4>Vagas disponíveis por seção(Total de 50 vagas):</h4>
-                <h5>Passe o cursor nas barras para visualizar o nº de vagas preenchidas</h5>
-                <p>Seção 1: <meter value="15" min="0" max="50" title="15 vagas preenchidas"> </meter></p>
-                <p>Seção 2: <meter value="50" min="0" max="50" title="50 vagas preenchidas"></meter></p>
-                <p>Seção 3: <meter value="34" min="0" max="50" title="34 vagas preenchidas"></meter></p>
-                <p>Seção 4: <meter value="5" min="0" max="50" title="5 vagas preenchidas"></meter></p>
-            </section>
+
+            <div class="DescFilme">
+
+
+
+
+                <p>
+                <h4> Data de exibição: 07/07/1972</h4>
+                </p>
+                <p>
+                <h4>
+                    <p>Horários de Exibição</p>
+                    <ul>
+                        <li>1ª Secão: 08h:00</li>
+                        <li>2ª Secão: 11h:00</li>
+                        <li>3ª Secão: 14h:00</li>
+                        <li>4ª Secão: 17h:00</li>
+                    </ul>
+                </h4>
+                </p>
+                <p>
+                <h4> <mark>Classificação: 18 anos</mark> </h4>
+                </p>
+                <p>
+                <h4>
+                    <details>Uma família mafiosa luta para estabelecer sua supremacia nos Estados Unidos depois da
+                        Segunda Guerra Mundial. Uma tentativa de assassinato deixa o chefão Vito Corleone incapacitado e
+                        força os filhos Michael e Sonny a assumir os negócios.</details>
+                </h4>
+                </p>
+                <p>
+                <h4>Duração:2h:55min</h4>
+                </p>
+                <p>
+                <h4>Assista o trailer abaixo:</h4>
+                <iframe class="trailer" width="560" height="315" src="https://www.youtube.com/embed/UaVTIH8mujA" frameborder="0"
+                    allowfullscreen></iframe>
+                </p>
+               
+                <p><h4>
+                    Clique no botão abaixo para escutar a trilha sonora:
+                </h4></p>
+
+                <audio controls>
+                    <source src="audios/TheGodfather.mp3" type="audio/mp3">
+                </audio>
+                <section class="vagas">
+                    <h4>Vagas disponíveis por seção(Total de 50 vagas):</h4>
+                    <h5>Passe o cursor nas barras para visualizar o nº de vagas preenchidas</h5>
+                    <p>Seção 1: <meter value="15" min="0" max="50" title="15 vagas preenchidas"> </meter></p>
+                    <p>Seção 2: <meter value="50" min="0" max="50" title="50 vagas preenchidas"></meter></p>
+                    <p>Seção 3: <meter value="34" min="0" max="50" title="34 vagas preenchidas"></meter></p>
+                    <p>Seção 4: <meter value="5" min="0" max="50" title="5 vagas preenchidas"></meter></p>
+                </section>
+
+
+
+            </div>
 
             <dialog open>
                 <form method="dialog">
-                    <p>
+
                     <ul>
                         <center>
                             <h3>AVISOS</h3>
@@ -95,12 +111,15 @@
                     <center><button>Tudo bem!</button></center>
                 </form>
             </dialog>
-            </p>
         </section>
     </main>
 
-    <a href="Cartazes dos filmes.html"> <button>Retornar ao catálogo de Filmes</button> </a>
-    <br> <br>
+
+    <div class="text-center">
+        <a class="movie-btn" href="Cartazes dos filmes.html">Retornar ao catálogo</a>
+    </div>
+ <br>
+
     <footer>
         Todos os direitos reservados a &copy;CineManfrs
     </footer>
