@@ -23,120 +23,126 @@
     </header>
 
     <section id="cadastro_corpo">
-        <form class="movie-form" action="index.html" method="post">
 
 
-<br>
-            <div class="cadast">
-                <label for="birthday">Data de Nascimento:</label>
-                <input type="date" id="birthday" name="birthday" required> <br> <br>
-            </div>
+        <div class="text-center">
 
-            <div class="cadast">
-                <label for="Email">Email</label>
-                <input type="email" name="Email" id="Email" required placeholder="xx...xx@xx...xx">
+            <form class="movie-form" action="index.html" method="post">
 
-                <br><br>
-            </div>
 
-            <div class="cadast">
-                <label for="telefone">Telefone</label> <br>
-                <input type="tel" id="telefone" name="telefone" pattern="\(?([0-9]{2})\)?[- ]?[0-9]{4,5}[- ]?[0-9]{4}"
-                    title="Digite o formato correto com ou sem os traços" required placeholder="(xx) xxxxx-xxxx">
-                <br> <br>
-            </div>
-
-            <div class="cadast">
-                <label for="mes">Qual o seu mês de adesão a plataforma:</label>
                 <br>
-                <input type="month" id="mes" name="mes" required>
-                <br><br>
-            </div>
-
-
-            <div class="cadast">
-                <label for="filmes-semana">Quantos filmes de 1 a 7 você preende assistir semanalmente:</label> <br>
-                <input type="number" name="filmes-semana" min="1" max="7" title="Digite um numero de 1 a 7" required
-                    placeholder="1 à 7">
-                <br><br>
-            </div>
-
-            <div class="cadast">
-                <label for="CorAreaCliente">Qual cor você pretende usar para a sua área de cliente</label>
-                <input type="color" name="CorAreaCliente" id="filmes-semana"> <br><br>
-            </div>
-
-            <div class="cadast">
-                <label for="Pagina_pessoal"> Insira o link da sua página pessoal</label> <br>
-                <input type="url" name="Pagina_pessoal" id="Pagina_pessoal" placeholder="https://example.com"
-                    pattern="https://.*" size="30" required> <br> <br>
-
-            </div>
-
-
-
-
-
-            <div class="cadast">
-                <label for="data_cupom_1compra">Qual data e hora o cliente pretende usar o cupom de desconto da primeira
-                    compra:</label> <br>
-                <input type="datetime-local" name="data_cupom_1compra" id="data_cupom_1compra" required> <br><br>
-            </div>
-
-
-            <div class="cadast">
-                <label for="preferencias">Escolha o nível de preferência de cada um dos genêros abaixo:</label>
-
-
-
                 <div class="cadast">
-                    <label for="acao">Preferência de filmes de ação:</label> <br>
-                    <input type="range" id="acao" name="acao" min="0" max="10" value="0">
+                    <label for="birthday">Data de Nascimento:</label>
+                    <input type="date" id="birthday" name="birthday" required> <br> <br>
                 </div>
 
-
                 <div class="cadast">
-                    <label for="drama">Preferência de filmes de drama:</label> <br>
-                    <input type="range" id="drama" name="drama" min="0" max="10" value="0">
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" id="Email" required placeholder="xx...xx@xx...xx">
 
+                    <br><br>
                 </div>
+
                 <div class="cadast">
-                    <label for="romance">Preferência de filmes de romance:</label> <br>
-                    <input type="range" id="romance" name="romance" min="0" max="10" value="0">
+                    <label for="telefone">Telefone</label> <br>
+                    <input type="tel" id="telefone" name="telefone"
+                        pattern="\(?([0-9]{2})\)?[- ]?[0-9]{4,5}[- ]?[0-9]{4}"
+                        title="Digite o formato correto com ou sem os traços" required placeholder="(xx) xxxxx-xxxx">
+                    <br> <br>
+                </div>
+
+                <div class="cadast">
+                    <label for="mes">Qual o seu mês de adesão a plataforma:</label>
                     <br>
+                    <input type="month" id="mes" name="mes" required>
+                    <br><br>
+                </div>
+
+
+                <div class="cadast">
+                    <label for="filmes-semana">Quantos filmes de 1 a 7 você preende assistir semanalmente:</label> <br>
+                    <input type="number" name="filmes-semana" min="1" max="7" title="Digite um numero de 1 a 7" required
+                        placeholder="1 à 7">
+                    <br><br>
                 </div>
 
                 <div class="cadast">
-                    <label for="comedia">Preferência de filmes de comédia:</label> <br>
-                    <input type="range" id="comedia" name="comedia" min="0" max="10" value="0">
-                    <br>
+                    <label for="CorAreaCliente">Qual cor você pretende usar para a sua área de cliente</label>
+                    <input type="color" name="CorAreaCliente" id="filmes-semana"> <br><br>
                 </div>
 
                 <div class="cadast">
-                    <label for="suspense">Preferência de filmes de suspense:</label> <br>
-                    <input type="range" id="suspense" name="suspense" min="0" max="10" value="0">
-                    <br>
+                    <label for="Pagina_pessoal"> Insira o link da sua página pessoal</label> <br>
+                    <input type="url" name="Pagina_pessoal" id="Pagina_pessoal" placeholder="https://example.com"
+                        pattern="https://.*" size="30" required> <br> <br>
+
                 </div>
+
+
+
+
 
                 <div class="cadast">
-                    <label for="terror">Preferência de filmes de terror:</label> <br>
-                    <input type="range" id="terror" name="terror" min="0" max="10" value="0">
-                    <br>
+                    <label for="data_cupom_1compra">Qual data e hora o cliente pretende usar o cupom de desconto da
+                        primeira
+                        compra:</label> <br>
+                    <input type="datetime-local" name="data_cupom_1compra" id="data_cupom_1compra" required> <br><br>
                 </div>
+
 
                 <div class="cadast">
-                    <label for="ficcao">Preferência de filmes de ficção científica:</label> <br>
-                    <input type="range" id="ficcao" name="ficcao" min="0" max="10" value="0">
-                    <br>
+                    <label for="preferencias">Escolha o nível de preferência de cada um dos genêros abaixo:</label>
+
+
+
+                    <div class="cadast">
+                        <label for="acao">Preferência de filmes de ação:</label> <br>
+                        <input type="range" id="acao" name="acao" min="0" max="10" value="0">
+                    </div>
+
+
+                    <div class="cadast">
+                        <label for="drama">Preferência de filmes de drama:</label> <br>
+                        <input type="range" id="drama" name="drama" min="0" max="10" value="0">
+
+                    </div>
+                    <div class="cadast">
+                        <label for="romance">Preferência de filmes de romance:</label> <br>
+                        <input type="range" id="romance" name="romance" min="0" max="10" value="0">
+                        <br>
+                    </div>
+
+                    <div class="cadast">
+                        <label for="comedia">Preferência de filmes de comédia:</label> <br>
+                        <input type="range" id="comedia" name="comedia" min="0" max="10" value="0">
+                        <br>
+                    </div>
+
+                    <div class="cadast">
+                        <label for="suspense">Preferência de filmes de suspense:</label> <br>
+                        <input type="range" id="suspense" name="suspense" min="0" max="10" value="0">
+                        <br>
+                    </div>
+
+                    <div class="cadast">
+                        <label for="terror">Preferência de filmes de terror:</label> <br>
+                        <input type="range" id="terror" name="terror" min="0" max="10" value="0">
+                        <br>
+                    </div>
+
+                    <div class="cadast">
+                        <label for="ficcao">Preferência de filmes de ficção científica:</label> <br>
+                        <input type="range" id="ficcao" name="ficcao" min="0" max="10" value="0">
+                        <br>
+                    </div>
+
                 </div>
 
-            </div>
+        </div>
 
-
-
-            <div class="text-center">
-                <input class="movie-btn" type="submit" value="Enviar Dados">
-            </div>
+        <div class="text-center">
+            <input class="movie-btn" type="submit" value="Enviar Dados">
+        </div>
         </form> <br>
         <div class="text-center">
             <a class="movie-btn" href="index.html">Voltar ao menu </a>
@@ -148,7 +154,7 @@
         Todos os direitos reservados a &copy;CineManfrs
     </footer>
 
-</body>  
+</body>
 
 
 
