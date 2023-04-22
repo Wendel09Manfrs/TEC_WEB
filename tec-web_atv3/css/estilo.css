@@ -12,10 +12,15 @@
   
 
 #cadastro_corpo{
-    background-color: #7e69a2;
+    background-color: #412671;
 }
 
-
+.movie-form{
+    background-color: #151e58;
+    border-radius: 8px;
+    box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.75);
+    
+}
 
 .container{
     max-width: 720px;
@@ -57,6 +62,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 
 }
 
@@ -128,7 +134,7 @@ table {
     font-weight: 900;
     max-width: 500px;
     padding: 10px;
-    background-color: #372e59;
+    background-color:none;
     border-radius: 8px;
     justify-content: center;
 
@@ -256,4 +262,47 @@ footer{
  
 }    
  
-    
+/* Defina a propriedade animation na classe .cartaz */
+.cartaz {
+    animation: aparecer 1s ease forwards;
+  }
+
+
+.movie-form{
+    animation: aparecer 0.5s ease forwards;
+}
+  
+  /* Defina a animação aparecer com uma transição de opacidade e transformação */
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .cartaz:hover img {
+    animation: pula 0.5s ease-in-out;
+  }
+  
+  @keyframes pula {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+
+  
+  
+
+ 
+  
