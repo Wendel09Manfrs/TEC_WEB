@@ -1,3 +1,7 @@
+
+/*1º Configuração
+Blocos na esquerda em coluna*/
+
 .blocao{
 background-color:white;
  width: 95vw;
@@ -20,3 +24,739 @@ background-color:white;
     align-items: center;
     
 } 
+#b4,#b5{
+  display: none;
+}
+
+
+
+/*2º Configuração
+Blocos em (cima e esquerda) em linha
+.blocao{
+background-color:white;
+ width: 95vw;
+  height: 95vh ;
+  display:flex;
+  flex-direction:row; 
+  border: 5px solid rgb(17, 4, 4);
+  gap:20px;
+  
+  
+  
+}
+.bloquinho{
+    background-color: blue;
+    width: 25%;
+    height:25%;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    
+} 
+#b4,#b5{
+  display: none;
+}
+*/
+
+/*3º Configuração
+Blocos em (cima e direita) em linha
+.blocao{
+background-color:white;
+ width: 95vw;
+  height: 95vh ;
+  display:flex;
+  flex-direction:row; 
+  border: 5px solid rgb(17, 4, 4);
+  justify-content:end;
+  gap: 20px;
+  
+  
+  
+}
+.bloquinho{
+    background-color: blue;
+    width: 25%;
+    height:25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+#b4,#b5{
+  display: none;
+}
+*/
+
+/*4º Configuração
+Blocos em (cima e no centro) em linha
+.blocao{
+  background-color:white;
+   width: 95vw;
+    height: 95vh ;
+    display:flex;
+    flex-direction:row; 
+    border: 5px solid rgb(17, 4, 4);
+    justify-content:space-evenly
+    
+    
+    
+  }
+  .bloquinho{
+      background-color: blue;
+      width: 25%;
+      height:25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  } 
+  #b4,#b5{
+    display: none;
+  }
+  */
+
+
+
+  
+/*5º Configuração
+Blocos em (cima e na esquerda com wrap) em linha
+
+  .blocao{
+    background-color:white;
+     width: 95vw;
+      height: 95vh ;
+      display:flex;
+      flex-direction:row; 
+      border: 5px solid rgb(17, 4, 4);
+      gap: 20px;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      
+      
+      
+    }
+
+    .bloquinho{
+        background-color: blue;
+        width: 20%;
+        height:20%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+         
+    } 
+
+  */
+
+
+  /*6º Configuração
+Blocos em (cima e na direita, com wrap e invertido) em linha
+
+body{
+  margin-left: 35px;
+  border: 5px solid rgb(17, 4, 4);
+}
+
+  .blocao{
+    background-color:white;
+     width: 95vw;
+      height: 95vh ;
+      display:flex;
+      flex-direction:row-reverse; 
+      
+      gap: 20px;
+      flex-wrap: wrap;
+      align-content: flex-start;  
+    }
+    .bloquinho{
+        background-color: blue;
+        width: 20%;
+        height:20%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    } 
+
+*/
+
+
+/*7º Configuração
+Blocos em (cima e no centro) em linha com gap
+.blocao{
+  background-color:white;
+   width: 95vw;
+    height: 95vh ;
+    display:flex;
+    flex-direction:row; 
+    border: 5px solid rgb(17, 4, 4);
+    justify-content:space-evenly;
+    gap: 35px;
+    
+    
+    
+    
+  }
+  .bloquinho{
+      background-color: blue;
+      width: 25%;
+      height:25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  } 
+  #b4,#b5{
+    display: none;
+  }
+
+*/
+
+/*8º Configuração
+Blocos no centro da div pai
+.blocao{
+  background-color:white;
+   width: 95vw;
+    height: 95vh ;
+    display:flex;
+    flex-direction:row; 
+    border: 5px solid rgb(17, 4, 4);
+    justify-content:space-between;
+    
+    
+    
+    
+  }
+  .bloquinho{
+      background-color: blue;
+      width: 25%;
+      height:25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  } 
+  #b4,#b5{
+    display: none;
+  }
+  */
+
+  /*9º Configuração
+Blocos no centro da div pai
+
+  .blocao{
+    background-color:white;
+     width: 95vw;
+      height: 95vh ;
+      display:flex;
+      flex-direction:row; 
+      border: 5px solid rgb(17, 4, 4);
+      justify-content:center;
+      align-items:center;
+      gap: 10px;
+      
+      
+      
+    }
+    .bloquinho{
+        background-color: blue;
+        width: 25%;
+        height:25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    } 
+    #b4,#b5{
+      display: none;
+    }
+    */
+
+
+
+    /*10º Configuração
+Blocos no meio vertical com alturas distintas
+
+  .blocao{
+    background-color:white;
+     width: 95vw;
+      height: 95vh ;
+      display:flex;
+      flex-direction:row; 
+      border: 5px solid rgb(17, 4, 4);
+      justify-content:space-evenly;
+      align-items:center;
+      gap: 10px;
+      
+      
+      
+    }
+    .bloquinho{
+        background-color: blue;
+        width: 32%;
+        height:25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    } 
+    #b4,#b5{
+      display: none;
+    }
+
+    #b1{
+      height: 40%;
+    }
+
+    #b3{
+      height: 50%;
+    }
+*/
+
+ /*10º Configuração
+Blocos no meio vertical com alturas distintas
+
+  .blocao{
+    background-color:white;
+     width: 95vw;
+      height: 95vh ;
+      display:flex;
+      flex-direction:row; 
+      border: 5px solid rgb(17, 4, 4);
+      justify-content:space-evenly;
+      align-items:center;
+      gap: 10px;
+      
+      
+      
+    }
+    .bloquinho{
+        background-color: blue;
+        width: 32%;
+        height:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    } 
+    #b4,#b5{
+      display: none;
+    }
+  */
+
+  /*11º Configuração
+  Blocos em cima alinhado para esquerda com bloco 2 em vermelho
+  
+  .blocao{
+    background-color:white;
+     width: 95vw;
+      height: 95vh ;
+      display:flex;
+      flex-direction:row; 
+      border: 5px solid rgb(17, 4, 4);
+      gap: 20px;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      
+      
+      
+    }
+
+    .bloquinho{
+        background-color: blue;
+        width: 20%;
+        height:20%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+         
+    } 
+
+    #b5{
+      display:none;
+    }
+    #b2{
+      background-color: red;
+    }
+    
+*/
+
+
+  /*12º Configuração
+  Blocos em cima alinhado para esquerda com bloco 2 com fonte maior
+  
+  .blocao{
+    background-color:white;
+     width: 95vw;
+      height: 95vh ;
+      display:flex;
+      flex-direction:row; 
+      border: 5px solid rgb(17, 4, 4);
+      gap: 20px;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      
+      
+      
+    }
+
+    .bloquinho{
+        background-color: blue;
+        width: 20%;
+        height:20%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+         
+    } 
+
+    #b5{
+      display:none;
+    }
+    #b2{
+      font-size: 50px;
+    }
+
+*/
+
+ /*13º Configuração
+  Blocos em cima alinhado para esquerda com bloco 2 no lugar do 1
+  
+  .blocao{
+    background-color:white;
+     width: 95vw;
+      height: 95vh ;
+      display:flex;
+      flex-direction:row; 
+      border: 5px solid rgb(17, 4, 4);
+      gap: 20px;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      
+      
+      
+    }
+
+    .bloquinho{
+        background-color: blue;
+        width: 20%;
+        height:20%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+         
+    } 
+
+    #b5{
+      display:none;
+    }
+    #b2{
+      background-color:red;
+      order: 1;
+    }
+    #b1{
+      
+      order:2;
+    }
+    #b4{
+      
+      order:4;
+    }
+    #b3{
+      
+      order:3;
+    }
+    */
+
+
+     /*14º Configuração
+  Blocos em cima alinhado para esquerda com bloco 2 no lugar do 3
+  e o 1 no lugar do 2
+  
+  .blocao{
+    background-color:white;
+     width: 95vw;
+      height: 95vh ;
+      display:flex;
+      flex-direction:row; 
+      border: 5px solid rgb(17, 4, 4);
+      gap: 20px;
+      flex-wrap: wrap;
+   
+      
+      
+      
+    }
+
+    .bloquinho{
+        background-color: blue;
+        width: 20%;
+        height:20%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+         
+    } 
+
+    #b5{
+      display:none;
+    }
+    #b2{
+      background-color:red;
+      order: 3;
+    }
+    #b1{
+      
+      order:2;
+    }
+    #b4{
+      
+      order:4;
+    }
+    #b3{
+      
+      order:1;
+    }
+
+    /*
+
+
+    /*15º Configuração
+  Somente Bloco 2 em cima alinhado para esquerda e o resto no meio do div
+  
+  .blocao{
+    background-color:white;
+     width: 95vw;
+      height: 95vh ;
+      display:flex;
+      flex-direction:row; 
+      border: 5px solid rgb(17, 4, 4);
+      gap: 20px;
+      flex-wrap: wrap;
+      
+      align-items: center;
+      
+      
+      
+    }
+
+    .bloquinho{
+        background-color: blue;
+        width: 20%;
+        height:20%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+         
+    } 
+
+    #b5{
+      display:none;
+    }
+    #b2{
+      background-color:red;
+      align-self: flex-start;
+     
+    }
+    */
+
+    /*16º Configuração
+  Somente Bloco 2 em baixo alinhado para esquerda e o resto no meio do div
+  
+  .blocao{
+    background-color:white;
+     width: 95vw;
+      height: 95vh ;
+      display:flex;
+      flex-direction:row; 
+      border: 5px solid rgb(17, 4, 4);
+      gap: 20px;
+      flex-wrap: wrap;
+      
+      align-items: center;
+      
+      
+      
+    }
+
+    .bloquinho{
+        background-color: blue;
+        width: 20%;
+        height:20%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+         
+    } 
+
+    #b5{
+      display:none;
+    }
+    #b2{
+      background-color:red;
+      align-self:flex-end
+     
+    }
+    
+    */
+
+
+    /*17º Configuração
+  Somente Bloco 2 com 100% da altura alinhado para esquerda e o resto no meio do div
+  
+  .blocao{
+    background-color:white;
+     width: 95vw;
+      height: 95vh ;
+      display:flex;
+      flex-direction:row; 
+      border: 5px solid rgb(17, 4, 4);
+      gap: 20px;
+      flex-wrap: wrap;
+        align-items: center; 
+
+      
+      
+      
+    }
+
+    .bloquinho{
+        background-color: blue;
+        width: 20%;
+        height:20%;
+        display: flex;
+       justify-content: center;
+        align-items: center; 
+         
+    } 
+
+    #b5{
+      display:none;
+    }
+    #b2{
+      background-color:red;
+      height: 100%;
+     
+    }
+    */
+
+     /*17º Configuração
+  Somente Bloco 2 com largura maior no meio do div
+  
+  .blocao{
+    background-color:white;
+     width: 95vw;
+      height: 95vh ;
+      display:flex;
+      flex-direction:row; 
+      border: 5px solid rgb(17, 4, 4);
+      gap: 20px;
+      flex-wrap: wrap;
+        align-items: center; 
+
+      
+      
+      
+    }
+
+    .bloquinho{
+        background-color: blue;
+        width: 20%;
+        height:20%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+         
+    } 
+
+    #b5{
+      display:none;
+    }
+    #b2{
+      background-color:red;
+      width: 50%;
+    }
+    #b4{
+      display:none;
+    }
+
+    */
+
+  
+       /*17º Configuração
+  Somente Bloco 2 com largura maior no meio do div
+  
+  .blocao{
+    background-color:white;
+     width: 95vw;
+      height: 95vh ;
+      display:flex;
+      flex-direction:row; 
+      border: 5px solid rgb(17, 4, 4);
+      gap: 5px;
+      flex-wrap: wrap;
+        align-items: center; 
+        justify-content:space-evenly;
+      
+      
+      
+    }
+
+    .bloquinho{
+        background-color: blue;
+        width: 37%;
+        height:20%;
+        display: flex;
+        justify-content:center;
+        align-items: center; 
+         
+    } 
+
+    #b5{
+      display:none;
+    }
+    #b2{
+      width: 20%;
+    }
+    #b4{
+      display:none;
+    }
+
+*/
+
+
+    
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+    
+
+   
+
+
+
+
+
+
+
+
+    
+    
+
+
+  
+
+
+
+
+
