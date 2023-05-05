@@ -1,0 +1,22 @@
+.blocao{
+background-color:white;
+ width: 95vw;
+  height: 95vh ;
+  display:flex;
+  flex-direction: column; 
+  border: 5px solid rgb(17, 4, 4);
+  gap:20px;
+  
+  
+  
+}
+.bloquinho{
+    background-color: blue;
+    width: 25%;
+    height:25%;
+    display: flex;
+    margin-left: auto;  
+    justify-content: center;
+    align-items: center;
+    
+} 
