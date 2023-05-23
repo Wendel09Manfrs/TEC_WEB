@@ -1,0 +1,79 @@
+@media only screen and (min-width: 10px) and (max-width: 700px){
+    .container-fluid{
+        flex-direction: column;
+        width:100%;
+    }
+    .sections .aside{
+        width: 100%;
+    }
+
+    .review{
+        width: 100%;
+        height: 100%;
+    }
+
+    .all_body{
+        width: 100%;
+    }
+    
+
+    .produto-placa-mae{
+        width: 100%;
+    }
+
+    .cards{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .cards .card{
+        width: 100%;
+    }
+
+    .picture{
+      display: flex;
+      justify-content: center;
+
+    }
+.container-fluid{
+    justify-content:left;}
+
+
+.cards.card{
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+
+}
+
+body > div > section > div > section > div.sugestoes-div > div{
+display: flex;
+background-color: rgb(176, 168, 178);
+}
+
+.sugestoes{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.sugestoes.card{
+    width: 100%;
+}
+
+.sugestoes.center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+    .alert{
+        align-items: center;
+    }
+
+    .review {
+        width: 20em;
+        height: 15em;
+    }
+}
