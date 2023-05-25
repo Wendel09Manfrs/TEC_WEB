@@ -9,35 +9,12 @@
     justify-content: center;
 }
 
-.infos-adicionais{
-    display: flex;
-    width: 100%;
-    justify-content: end;
-    align-items:flex-end;
-    padding-bottom: 10px;
-}
-
-header{
-    width: 100%;
-}
-
-.texto-logo{
-    display: flex-column;
-    align-items: center;
-    justify-content: center;
-    font-size: larger;
-}
 
 
-.texto-logo>h3{
-  font-size: larger;
-    
-    font-size: 30px;
-}
-.texto-logo>p{
-    
-    font-size: 15px;
-}
+
+
+
+
 
 .custom-dropdown .dropdown-item:hover {
     background-color: #0b0f13; /* Defina a cor desejada aqui */
@@ -70,75 +47,18 @@ header{
 }
 
 
-#lingua{
-    display:flex;
-    flex-direction: row;
-    justify-content: end;
-    margin-right: 2em;
-    margin-left: 2em;
-}
-
-  #lingua .linguagem {
-    width:3em;
-    height: 3em;
-    margin-right: 10px;
-    font-weight: bold;
-    font-size: 1vh;
-    border-radius: 4px;
-    background-color:white ;
-    cursor: pointer;
-    text-align: center;
-    align-self: center;
-    border: solid 2px black;
-    padding: 3px;
-  }
-
-.img-logo{
-    width: 80px;
-    height: 80px;
-}
-
-.header{
-    display: flex;
-    width: 100%;
-}
-
-.cobrir-infos{
-    display: flex;
-    width: 100%;
-    align-self: flex-end;
-    flex-flow: row wrap;
-}
-
-.infos-adicionais{
-    display: flex;
-    width: 100%;
-    justify-content: end;
-    align-items:flex-end;
-    padding-bottom: 10px;
-}
-
-header{
-    width: 100%;
-}
-
-.texto-logo{
-    display: flex-column;
-    align-items: center;
-    justify-content: center;
-    font-size: larger;
-}
 
 
-.texto-logo>h3{
-  font-size: larger;
-    
-    font-size: 30px;
-}
-.texto-logo>p{
-    
-    font-size: 15px;
-}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -148,32 +68,15 @@ header{
   }
 
 
-.infos>a{
-    text-decoration: none;
-    color:aqua;
-    margin-right: 2vh;
-    font-size: 1em;
-}
-
-.infos{
-    display:flex;
-    width: 100%;
-    justify-content: end;
-    padding-left: 1vh;
-}
 
 
 
 
 
-.logogeral{
-    padding: 5px;
-    display: flex;
-    color:#912424;
-    align-items:center;
-    width: inherit;
-  
-  }
+
+
+
+
   
   
   .all_body{
@@ -181,10 +84,7 @@ header{
   }
 
 
-.logogeral.img-logo{
-    width: 50px;
-    height: 50px;
-}
+
 
 
 
