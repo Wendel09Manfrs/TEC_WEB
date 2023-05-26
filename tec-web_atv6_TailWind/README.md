@@ -1,6 +1,6 @@
 ### Trabalho prático BootStrap
 
-Refazendo o trabalho prático HTML + CSS (loja de peças de PC) com o BootStrap
+Refazendo o trabalho prático HTML + CSS (loja de peças de PC) com o Tailwind
 
 <br>
 Disciplina de Tecnologias WEB
