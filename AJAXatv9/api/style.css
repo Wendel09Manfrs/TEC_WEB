@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+.card-container {
+    margin: 30px;
+    background: #645e7f;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px -10px rgba(221, 7, 7, 0.75);
+    color: #1fb745;
+    text-align: center;
+    width: auto;
+    padding: 20px;
+
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d0cbe1;
+}
+
+
+
+.round {
+    border: 1px solid #435152;
+    border-radius: 20%;
+    padding: 7px;
+
+}
+.name-container {
+    margin: 10px 0;
+}
